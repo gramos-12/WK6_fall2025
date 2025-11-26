@@ -282,9 +282,9 @@ footer {
 }
 .logo{
   width: 50%;
-  margin: auto;
-  margin-right: 0;
- padding: auto;
+  padding: 0; 
+  margin: 0;
+
 }
   header h3 {
   width: 50%;
@@ -335,6 +335,7 @@ display: block;
 text-align: center;
 }
 .logo_footer img{
+
   margin:0;
   padding: 0;
 }
