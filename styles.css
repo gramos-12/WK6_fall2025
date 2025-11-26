@@ -288,7 +288,7 @@ footer {
 }
   header h3 {
   width: 50%;
-  margin: auto;
+  margin: 0;
   margin-left: 20px
   padding: 0;
   }
@@ -334,9 +334,14 @@ footer {
 display: block;
 text-align: center;
 }
+.logo_footer img{
+  margin:0;
+  padding: 0;
+}
 /*TLC Coffee & Tea header*/
 .hd3_2 {
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
   width: 90%;
 }
 .hd5_5 { /*VISIT US header*/
