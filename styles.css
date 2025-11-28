@@ -14,8 +14,9 @@ header {
 }
 
 .logo img {
-  height:100px;
+  height:80px;
   padding: 0;
+  margin-top: 15px;
 }
 h3 {
   font-size: 22px;
