@@ -223,7 +223,7 @@ header h3{
   margin-left: 0;
 }
   nav {
-    margin:auto;
+    
     width: 78%;
   }
   .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .sandwiches, .cof_beans, .leaf_teas{
@@ -279,11 +279,11 @@ footer {
 }
 .logo img{
   margin-left: 0;
-  margin-top: 0;
+
 }
   header h3 {
   width: 50%;
-  margin: 0;
+ 
   padding-left: 5px;
   }
   nav{
