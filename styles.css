@@ -129,8 +129,13 @@ footer {
   margin-bottom: 40px;
   padding: 20px;
 }
+.logo_footer{
+
+}
 .logo_footer img{
   height:80px;
+  margin-left: 30px;
+  margin-right: 25px;
 }
 
 /*TLC Coffee & Tea header*/
@@ -138,8 +143,7 @@ footer {
  font-weight: lighter;
  font-size: 22px;
  flex-grow: 1;
- margin-right: 50px;
- padding-left: 10px;
+
 }
 .address_info { /*VISIT US Address section*/
   flex-grow: 2;
