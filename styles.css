@@ -330,6 +330,9 @@ text-align: center;
 /*TLC Coffee & Tea header*/
 .hd3_2 {
   width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding:0;
 }
 .hd5_5 { /*VISIT US header*/
  margin-top: 20px;
