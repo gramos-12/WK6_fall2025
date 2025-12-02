@@ -42,6 +42,8 @@ ul {
 a{
   display: block;
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 li {
   font-size: 20px; /*may have to delete*/
@@ -83,6 +85,9 @@ li {
   height: auto;
   margin: auto;
   margin-top: 1px;
+}
+figcaption{
+  color: black;
 }
  .h_bev img, .cold_bev img, .frapps img, .teas img, .s_moothies img, .sandwiches img, div.cof_beans img, .leaf_teas img {
 width: 100%;
