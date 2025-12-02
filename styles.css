@@ -84,6 +84,13 @@ li {
   margin: auto;
   margin-top: 1px;
 }
+ .h_bev img, .cold_bev img, .frapps img, .teas img, .s_moothies img, .sandwiches img, div.cof_beans img, .leaf_teas img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+padding: 10px;
+  }
+
 .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .sandwiches, .cof_beans, .leaf_teas {
   width: 200px;
   height: 240px;
@@ -108,6 +115,7 @@ figcaption {
   text-align: center;
   font-size: 20px;
   justify-content: center;
+  font-weight: bold;
 }
 .group2 {
   margin-top: 30px;
@@ -118,6 +126,7 @@ figcaption {
   text-align: center;
   font-size: 20px;
   justify-content: center;
+  font-weight: bold;
 }  
 footer {
   width: 100%;
@@ -330,6 +339,13 @@ li {
 footer {
 display: block;
 text-align: center;
+padding: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.logo_footer img{
+margin: 0;
+padding: 0;
 }
 /*TLC Coffee & Tea header*/
 .hd3_2 {
