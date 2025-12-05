@@ -356,6 +356,10 @@ footer {
   background-color: black;
   grid-row: 2/span 1;
 }
+#hot_bev1, #cold_bev1, #frapps1, #smooth1{
+  background-color:bisque;
+
+}
 
 
 /*------------   Menu web page css ENDs Here   ------------*/
