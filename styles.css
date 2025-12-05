@@ -254,8 +254,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width:35%;
-  height:30px;
+  width:40%;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
@@ -289,7 +288,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 35%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -322,7 +321,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 35%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -355,7 +354,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 35%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -388,7 +387,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 25%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -420,7 +419,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 25%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -453,7 +452,7 @@ footer {
   display:grid;
   grid-template-columns: 3fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
-  width: 25%;
+  width: 40%;
   margin:auto;
   margin-left: 20px;
   margin-right: 20px;
@@ -478,7 +477,11 @@ footer {
 
 #hot_bev1, #cold_bev1, #frapps1, #smooth1, #food1, #coff_bean1, #loose_lt1{
   background-color:bisque;
+  height: auto;
 
+}
+#hot_bev, #cold_bev, #frapps, #smooth, #food, #coff_bean, #loose_lt{
+  height:auto;
 }
 
 
@@ -544,6 +547,9 @@ footer {
 }
 .hd4_3 { /*VISIT US header*/
  width: auto; 
+}
+#food, #coff_bean, #loose_lt{
+  width:40%;
 }
 }
 /* ---------------     800px breakpoint     -----------------*/
@@ -638,5 +644,10 @@ padding: 0;
 }
 .main_menu{
   display:block;
+}
+#hot_beverage, #cold_beverage, #frapps, #smooth, #food, #coff_bean, #loose_lt{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 }
