@@ -658,5 +658,13 @@ padding: 0;
 #coff_bean1, #loose_lt1{
  height:auto;
 }
-
+.main_menu{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.font_size{
+  font-size: 18px;
+}
 }
