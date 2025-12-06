@@ -475,11 +475,15 @@ footer {
 }
 
 
-#hot_bev1, #cold_bev1, #frapps1, #smooth1, #food1, #coff_bean1, #loose_lt1{
+#hot_bev1, #cold_bev1, #frapps1, #smooth1, #food1{
   background-color:bisque;
-  height: auto;
-
+  height:40px;
 }
+#coff_bean1, #loose_lt1{
+ background-color:bisque;
+ height:40px;
+}
+
 #hot_bev, #cold_bev, #frapps, #smooth, #food, #coff_bean, #loose_lt{
   height:auto;
 }
@@ -649,5 +653,10 @@ padding: 0;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
+  grid-template-rows: auto repeat(5, 40px);
 }
+#coff_bean1, #loose_lt1{
+ height:auto;
+}
+
 }
