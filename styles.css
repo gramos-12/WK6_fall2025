@@ -15,6 +15,17 @@ header {
 .logo{
  width: 8%;
 }
+.logo_home{
+  width: 8%;
+}
+ .logo_home:hover{
+  transform: scale(1.1);
+ }
+ .logo_home img {
+  height:80px;
+  padding: 0;
+  margin-top: 15px;
+ }
 .logo img {
   height:80px;
   padding: 0;
