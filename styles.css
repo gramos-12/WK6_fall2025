@@ -515,6 +515,9 @@ footer {
   .logo{
     width: 11%;
   }
+  .logo_home{
+    width: 11%;
+  }
 header h3{
   width:11%;
   padding-left: 10px;
@@ -572,6 +575,14 @@ footer {
 @media screen and (max-width: 800px) {
 
 .logo{
+  height:100px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin: 0;
+}
+.logo_home{
   height:100px;
   padding-right: 5px;
   display: flex;
