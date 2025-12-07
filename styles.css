@@ -742,4 +742,19 @@ padding: 0;
   align-items: center;
   flex-wrap: wrap;
 }
+.about_page{
+width: 100%;
+}
+.left_img{
+  margin: auto;
+}
+.left_img img{
+  width: 80%;
+}
+.right_img{
+  margin: auto;
+}
+  .right_img img{
+  width: 50%;
+  }
 }
