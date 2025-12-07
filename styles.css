@@ -103,14 +103,14 @@ li {
 figcaption{
   color: black;
 }
- .h_bev img, .cold_bev img, .frapps img, .teas img, .s_moothies img, .foods img, div.cof_beans img, .leaf_teas img {
+ .h_bev img, .cold_bev img, .frapps img, .teas img, .s_moothies img, .food img, div.cof_beans img, .leaf_teas img {
 width: 100%;
 height: 200px;
 object-fit: cover;
 padding: 10px;
   }
 
-.h_bev, .cold_bev, .frapps, .teas, .s_moothies, .foods, .cof_beans, .leaf_teas {
+.h_bev, .cold_bev, .frapps, .teas, .s_moothies, .food, .cof_beans, .leaf_teas {
   width: 200px;
   height: 240px;
   border: 2px solid black;
@@ -119,7 +119,7 @@ padding: 10px;
   overflow: hidden;
   margin-right: 20px;
 }
-div.h_bev:hover, div.cold_bev:hover, div.frapps:hover, div.teas:hover, div.s_moothies:hover, div.foods:hover, div.cof_beans:hover, div.leaf_teas:hover {
+div.h_bev:hover, div.cold_bev:hover, div.frapps:hover, div.teas:hover, div.s_moothies:hover, div.food:hover, div.cof_beans:hover, div.leaf_teas:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
 }
@@ -226,7 +226,7 @@ footer {
   width: 40%;
   height:auto;
 }
-#hb, #cb, #fraps, #t_eas, #s_mooth, #s_andwich, #c_beans, #loose_leaf {
+#hb, #cb, #fraps, #t_eas, #s_mooth, #food, #c_beans, #loose_leaf {
   margin:auto;
   width: 200px;
   height: 40px;
@@ -536,7 +536,7 @@ font-size:30px ;
   height: 100%;
   margin-top: 60px;
   margin-bottom:60px;
-  margin-right: 40px;
+  margin-right: 0;
 }
 .left_img img{
   width: 100%;
@@ -613,7 +613,7 @@ footer {
 .hd4_3 { /*VISIT US header*/
  width: auto; 
 }
-#foods, #coff_bean, #loose_lt{
+#food, #coff_bean, #loose_lt{
   width:40%;
 }
 }
@@ -742,5 +742,4 @@ padding: 0;
   align-items: center;
   flex-wrap: wrap;
 }
-
 }

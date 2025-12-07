@@ -1,0 +1,746 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body { /*moves web page down*/
+  padding-top: 10px;
+}
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.logo{
+ width: 8%;
+}
+.logo_home{
+  width: 8%;
+}
+ .logo_home:hover{
+  transform: scale(1.1);
+ }
+ .logo_home img {
+  height:80px;
+  padding: 0;
+  margin-top: 15px;
+ }
+.logo img {
+  height:80px;
+  padding: 0;
+  margin-top: 15px;
+}
+header h3 {
+  font-size: 22px;
+  width: 8%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+nav {
+  width: 84%;
+  margin-top: 35px;
+}
+/*navigation bar for web pages*/
+ul {
+  text-align: center;
+  display: flex;
+}
+#no_1:hover, #no_2:hover, #no_3:hover, #no_4:hover, #no_5:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+li {
+  font-size: 20px; /*may have to delete*/
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: 1px solid black;
+  list-style: none;
+}
+.active {
+  background-color:bisque;
+  border-radius: 7px;
+}
+.top_img {
+  display: flex;
+  margin:auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.main h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 40px;
+}
+.par1 {
+  font-size: 24px;
+  padding: 20px 200px 20px 200px;
+  margin:auto;
+  width: 100%;
+}
+.main h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 1px;
+}
+
+figcaption{
+  color: black;
+}
+ .h_bev img, .cold_bev img, .frapps img, .teas img, .s_moothies img, .foods img, div.cof_beans img, .leaf_teas img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+padding: 10px;
+  }
+
+.h_bev, .cold_bev, .frapps, .teas, .s_moothies, .foods, .cof_beans, .leaf_teas {
+  width: 200px;
+  height: 240px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
+  margin-right: 20px;
+}
+div.h_bev:hover, div.cold_bev:hover, div.frapps:hover, div.teas:hover, div.s_moothies:hover, div.foods:hover, div.cof_beans:hover, div.leaf_teas:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+figcaption {
+  text-align: center;
+}
+.group1 {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  text-align: center;
+  font-size: 22px;
+  justify-content: center;
+  font-weight: bold;
+}
+.group2 {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+  font-size: 22px;
+  justify-content: center;
+  font-weight: bold;
+}  
+footer {
+  width: 90%;
+  height:auto;
+  background-color:bisque;
+  display:flex;
+  justify-content:space-around;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  border:2px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+
+}
+.logo_footer img{
+  height:80px;
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+ font-weight: lighter;
+ font-size: 22px;
+ flex-grow: 1;
+ font-weight: bold;
+
+}
+.address_info { /*VISIT US Address section*/
+  flex-grow: 2;
+}
+.hd5_5 { /*VISIT US Address header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-right: 10px;
+}
+  address { /*Visit Us Address*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 22px;
+  font-style: normal;
+}
+.connect_info { /*CONNECT Info section*/
+  flex-grow: 2;
+}
+.hd4_3 { /*CONNECT Info header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.parg1_3 { /*Connect Info*/
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 22px;
+  font-style: normal;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: auto;
+}
+.menu_sections {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  background-color:none;
+}
+.menu_sections div{
+  width: 40%;
+  height:auto;
+}
+#hb, #cb, #fraps, #t_eas, #s_mooth, #s_andwich, #c_beans, #loose_leaf {
+  margin:auto;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+  
+  }
+.main2{
+  background-color: aqua;
+  width: 90%;
+
+  margin: auto;
+  margin-top: 1px;
+}
+
+/*------------   Menu web page css STARTS Here  ------------*/
+
+.main_menu{
+  width: 100%;
+  height:auto;
+  margin-bottom: 60px;
+  display: flex;
+ flex-wrap: wrap;
+ justify-content:center;
+ 
+}
+
+#hot_bev1{
+  grid-column: 1/span 3;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#hot_beverage{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width:40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  
+}
+#hot_beverage > div{
+ 
+  border: 1px solid grey;
+}
+#hot_beverage::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+
+#cold_bev1{
+  grid-column: 1/span 3;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#cold_beverage{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+#cold_beverage > div{
+  border: 1px solid grey;
+}
+#cold_beverage::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+
+#frapps1{
+  grid-column: 1/span 3;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#frapps{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+#frapps > div{
+  border: 1px solid grey;
+}
+#frapps::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+
+#smooth1{
+  grid-column: 1/span 3;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#smooth{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+#smooth > div{
+  border: 1px solid grey;
+}
+#smooth::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+
+#food1{
+  grid-column: 1/span 2;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#food{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+#food > div{
+  border: 1px solid grey;
+}
+#food::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+#coff_bean1{
+  grid-column: 1/span 2;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#coff_bean{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+
+#coff_bean > div{
+  border: 1px solid grey;
+}
+#coff_bean::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+#loose_lt1{
+  grid-column: 1/span 2;
+  font-weight: bold;
+  font-size: 24px;
+  height: auto;
+}
+
+#loose_lt{
+  display:grid;
+  grid-template-columns: 3fr 1.5fr;
+  grid-template-rows: repeat(6, 40px);
+  width: 40%;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+}
+#loose_lt > div{
+  border: 1px solid grey;
+}
+#loose_lt::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  right:0;
+  height: 2px;
+  background-color: black;
+  grid-row: 2/span 1;
+}
+
+
+#hot_bev1, #cold_bev1, #frapps1, #smooth1, #food1{
+  background-color:bisque;
+  height:40px;
+}
+#coff_bean1, #loose_lt1{
+ background-color:bisque;
+ height:40px;
+}
+
+#hot_bev, #cold_bev, #frapps, #smooth, #food, #coff_bean, #loose_lt{
+  height:auto;
+}
+.main_about{
+  display:flex;
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding:0;
+}
+.left_img{
+  width: 30%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom:60px;
+  margin-left:40px;
+}
+.about_page{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about_page p{
+font-size: 18px;
+
+}
+.about_page h2 {
+font-size:30px ;
+}
+.about_page h3{
+  font-size: 24px;
+  color: red;
+}
+.right_img{
+  width: 30%;
+  height: 100%;
+  margin-top: 60px;
+  margin-bottom:60px;
+  margin-right: 40px;
+}
+.left_img img{
+  width: 100%;
+  object-fit: cover;
+}
+.right_img img{
+  width: 80%;
+  object-fit: cover;
+}
+
+/*------------   Menu web page css ENDs Here   ------------*/
+
+/*---------------   1200px breakpoint   ---------------*/
+
+@media screen and (max-width: 1200px) {
+  header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  .logo{
+    width: 11%;
+  }
+  .logo_home{
+    width: 11%;
+  }
+header h3{
+  width:11%;
+  padding-left: 10px;
+  margin-left: 0;
+}
+  nav {
+    
+    width: 78%;
+  }
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .food, .cof_beans, .leaf_teas{
+  margin-right: 10px;
+  }
+  .group1, .group2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .par1 {
+  font-size: 22px;
+  margin:20px;
+  padding:0;
+  width: auto;
+  }
+  .main {
+  width: 90%;
+  height: auto;
+  margin: auto;
+ padding-bottom: 20px;
+}
+footer {
+  width: 100%;
+  height:auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.address_info {
+  height: auto;
+  width: auto;
+}
+.hd5_5 { /*VISIT US header*/
+ width: auto; 
+}
+.connect_info {
+  height: auto;
+  width: auto;
+}
+.hd4_3 { /*VISIT US header*/
+ width: auto; 
+}
+#foods, #coff_bean, #loose_lt{
+  width:40%;
+}
+}
+/* ---------------     800px breakpoint     -----------------*/
+
+@media screen and (max-width: 800px) {
+
+.logo{
+  height:100px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin: 0;
+}
+.logo_home{
+  height:100px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin: 0;
+}
+.logo img{
+  margin-left: 0;
+
+}
+  header h3 {
+  width: 50%;
+ 
+  padding-left: 5px;
+  }
+  nav{
+    width: auto;
+  }
+  /* Menu Item SecNavigation */
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .food, .cof_beans, .leaf_teas{
+  width: 40%;
+  margin-bottom: 10px;
+  min-width: 200px;
+  }
+.group1, .group2 {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.group2{
+  margin-bottom: 40px;
+}
+  .par1 {
+  font-size: 20px;
+  margin:20px;
+  padding:0;
+  width: auto;
+}
+ul{
+  flex-direction: column;
+}
+li {
+  display: block;
+  height:44px;
+  width: auto;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: none;
+  list-style: none;
+}
+.main h1{
+  font-size: 28px;
+}
+footer {
+display: block;
+text-align: center;
+padding: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.logo_footer img{
+margin: 0;
+padding: 0;
+}
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding:0;
+}
+.hd5_5 { /*VISIT US header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
+}
+.hd4_3 { /*CONNECT Info header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
+}
+.main_menu{
+  display:block;
+}
+#hot_beverage, #cold_beverage, #frapps, #smooth, #food, #coff_bean, #loose_lt{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  grid-template-rows: auto repeat(5, 40px);
+}
+#coff_bean1, #loose_lt1{
+ height:auto;
+}
+.main_menu{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.font_size{
+  font-size: 18px;
+  font-weight: normal;
+}
+.main_about{
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+}
