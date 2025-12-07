@@ -543,7 +543,7 @@ font-size:30px ;
   object-fit: cover;
 }
 .right_img img{
-  width: 100%;
+  width: 80%;
   object-fit: cover;
 }
 
@@ -742,4 +742,5 @@ padding: 0;
   align-items: center;
   flex-wrap: wrap;
 }
+
 }
