@@ -394,7 +394,7 @@ footer {
   height: auto;
 }
 
-#foods{
+#food{
   display:grid;
   grid-template-columns: 3fr 1.5fr;
   grid-template-rows: repeat(6, 40px);
@@ -407,10 +407,10 @@ footer {
   position: relative;
   text-align: center;
 }
-#foods > div{
+#food > div{
   border: 1px solid grey;
 }
-#foods::after{
+#food::after{
   content:"";
   position: absolute;
   left: 0;
@@ -574,7 +574,7 @@ header h3{
     
     width: 78%;
   }
-  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .foods, .cof_beans, .leaf_teas{
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .food, .cof_beans, .leaf_teas{
   margin-right: 10px;
   }
   .group1, .group2 {
@@ -650,7 +650,7 @@ footer {
     width: auto;
   }
   /* Menu Item SecNavigation */
-  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .foods, .cof_beans, .leaf_teas{
+  .h_bev, .cold_bev, .frapps, .teas, .s_moothies, .food, .cof_beans, .leaf_teas{
   width: 40%;
   margin-bottom: 10px;
   min-width: 200px;
@@ -718,7 +718,7 @@ padding: 0;
 .main_menu{
   display:block;
 }
-#hot_beverage, #cold_beverage, #frapps, #smooth, #foods, #coff_bean, #loose_lt{
+#hot_beverage, #cold_beverage, #frapps, #smooth, #food, #coff_bean, #loose_lt{
   width: 100%;
   margin-left: 0;
   margin-right: 0;
