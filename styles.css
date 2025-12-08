@@ -747,14 +747,20 @@ width: 100%;
 }
 .left_img{
   margin: auto;
+  width: 100%;
 }
 .left_img img{
-  width: 80%;
+  width: 135px;
+  height: 180px;
+  margin-left: 0;
 }
 .right_img{
+  width:100%;
   margin: auto;
+  margin-bottom: 20px;
 }
   .right_img img{
-  width: 50%;
+  width: 135px;
+  margin-left: 0;
   }
 }
