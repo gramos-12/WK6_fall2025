@@ -582,8 +582,6 @@ form{
   display:flex;
   flex-direction: column;
   width: auto;
-
-  
   text-align: center;
   background-color: bisque;
   }
@@ -831,4 +829,15 @@ width: 100%;
   width: 135px;
   margin-left: 0;
   }
+  form{
+  width: 100%;
+  }
+   #name { 
+      width:100%;
+      font-size: 14px;
+    }
+    #email { 
+      width:100%;
+      font-size: 14px;
+    }
 }
