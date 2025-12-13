@@ -549,6 +549,58 @@ font-size:30px ;
 
 /*------------   Menu web page css ENDs Here   ------------*/
 
+#main{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#h2_contact_us{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+form{
+  display:flex;
+  flex-direction: column;
+  width: auto;
+
+  
+  text-align: center;
+  background-color: bisque;
+  }
+    #name_out, #email_out { 
+    margin: 20px; 
+    font-size: 24px;
+    }
+    #btn{
+      font-size: 18px;
+      width:100%;
+      padding-top: 5px;
+    
+    }
+    #output { 
+      margin-top: 20px; 
+      padding: 10px; 
+      border: 1px solid #ccc; 
+      margin-bottom: 10px;
+    }
+    #name { 
+      font-size: 18px;
+      width:300px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    #email { 
+      font-size: 18px;
+      width:300px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
 /*---------------   1200px breakpoint   ---------------*/
 
 @media screen and (max-width: 1200px) {

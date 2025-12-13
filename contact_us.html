@@ -23,9 +23,23 @@
       </ul>
     </nav>
   </header>
-  <div><br><br>Contact Us<br><br>
-  </div>
- 
+  
+  <div id="main">
+       <h2 id="h2_contact_us">Contact Us<br>Enter your contact information</h2>
+    <form id="myForm">
+      <label id="name_out">
+        Name:
+        <input type="text" id="name" name="name" required>
+      </label>
+      <label id="email_out">
+        Email:
+        <input type="email" id="email" name="email" required><br>
+      </label>
+      <button type="submit" id="btn"><strong>Send</strong></button>
+    </form>
+  
+
+  <div id="output"></div>
     <footer>
       <div class="logo_footer">
         <img src="images/cafe_logo3.png" alt="logo">
@@ -47,5 +61,32 @@
         </p>
       </div>
     </footer>
+    </div>
+    <script>
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form from refreshing the page
+
+    // Get values from inputs
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    
+
+    // Basic validation
+    if (!name || !email) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    // Display values on screen
+    document.getElementById("output").innerHTML = `
+        <h3>Submitted Data:</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        
+    `;
+});
+</script>
+
 </body>
 </html>
+
