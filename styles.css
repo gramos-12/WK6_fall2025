@@ -664,7 +664,7 @@ form{
     #main_blog{
       display: flex;
       flex-wrap: wrap;
-      width: 90%;
+      width: 70%;
       height: auto;
       margin: auto;
       margin-top: 20px;
@@ -674,7 +674,7 @@ form{
       #blog_post1, #blog_post2, #blog_post3{
         display: flex;
         justify-content: center;
-        width: 45%;
+        width: 100%;
         margin: 20px;
        
       }
@@ -688,7 +688,7 @@ form{
   margin: 0;
   }
   #p1_post, #p2_post, #p3_post{
-    font-size: 20px;
+    font-size: 22px;
     width: 40%;
     margin: 5%;
     padding: 0;
@@ -761,6 +761,9 @@ footer {
 #food, #coff_bean, #loose_lt{
   width:40%;
 }
+#blog_post1 img, #blog_post2 img, #blog_post3 img{
+    width: 100%;
+  }
 }
 /* ---------------     800px breakpoint     -----------------*/
 
@@ -930,11 +933,9 @@ width: 100%;
  #blog_post1, #blog_post2, #blog_post3{
     display: block;
     text-align: center;
-    width: 100%;
+   
  }
- #blog_post1 img, #blog_post2 img, #blog_post3 img{
-    width: 100%;
-  }
+ 
   #p1_post, #p2_post, #p3_post{
     width: 100%;
     margin: 0;
