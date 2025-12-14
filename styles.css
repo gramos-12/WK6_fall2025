@@ -615,6 +615,39 @@ form{
       margin-bottom: 10px;
     }
 
+    /* ------ start of Blog page css -------*/
+
+    #main_blog{
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      height: auto;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+
+      #blog_post1, #blog_post2, #blog_post3{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+       
+      }
+
+  #blog_post1 img, #blog_post2 img, #blog_post3 img{
+   
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  padding: 20px;
+  margin: 20px;
+  }
+  #p1_post, #p2_post, #p3_post{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
 /*---------------   1200px breakpoint   ---------------*/
 
 @media screen and (max-width: 1200px) {
@@ -844,5 +877,6 @@ width: 100%;
       margin:10px;
     margin-left: 5px;
     margin-right: 5px;
-    }
+  }
+  
 }
