@@ -242,6 +242,25 @@ footer {
   margin-top: 1px;
 }
 
+@keyframes menu_big{
+  from{
+    font-size:30px;
+    color: #000000;
+  }
+    to{
+      font-size:60px;
+      color: goldenrod;
+    }
+  }
+  #menu_picks{
+    animation-name: menu_big;
+    animation-fill-mode:none;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+
+
 /*------------   Menu web page css STARTS Here  ------------*/
 
 .main_menu{
