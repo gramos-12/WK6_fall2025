@@ -526,7 +526,6 @@ p{
   grid-row: 2/span 1;
 }
 
-
 #hot_bev1, #cold_bev1, #frapps1, #smooth1, #food1{
   background-color:bisque;
   height:40px;
@@ -539,6 +538,9 @@ p{
 #hot_bev, #cold_bev, #frapps, #smooth, #food, #coff_bean, #loose_lt{
   height:auto;
 }
+
+/*------- About Us page starts here -------*/
+
 .main_about{
   display:flex;
   width: 100%;
@@ -588,15 +590,23 @@ font-size:30px ;
   object-fit: cover;
 }
 
-/*------------   Menu web page css ENDs Here   ------------*/
+/*------------   Contact Us page starts Here   ------------*/
 
-#main {
+#main_contact {
   width: 90%;
   height: auto;
   margin: auto;
   margin-top: 1px;
 }
-#main .top_img {
+#main_contact{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_contact .top_img {
   display: flex;
   margin:auto;
   margin-top: 15px;
@@ -606,18 +616,11 @@ font-size:30px ;
   object-fit: cover;
   border-radius: 10px;
 }
-#main{
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-}
+
 #h2_contact_us{
   text-align: center;
   margin-bottom: 20px;
 }
-
 
 form{
   display:flex;
@@ -685,6 +688,7 @@ form{
   margin: 0;
   }
   #p1_post, #p2_post, #p3_post{
+    font-size: 20px;
     width: 40%;
     margin: 5%;
     padding: 0;
@@ -920,5 +924,21 @@ width: 100%;
     margin-left: 5px;
     margin-right: 5px;
   }
+  #main_blog{
+    width: 100%;
+  }
+ #blog_post1, #blog_post2, #blog_post3{
+    display: block;
+    text-align: center;
+    width: 100%;
+ }
+ #blog_post1 img, #blog_post2 img, #blog_post3 img{
+    width: 100%;
+  }
+  #p1_post, #p2_post, #p3_post{
+    width: 100%;
+    margin: 0;
   
+}       
+       
 }
