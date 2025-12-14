@@ -242,6 +242,28 @@ footer {
   margin-top: 1px;
 }
 
+/*-----------   This is where css variav les keyframes are located   ----------*/
+:root{
+  --h3_ft_size: 22px;
+  --bg-color:rgb(237,204,161);
+  --p-text-color: black;
+  --wgt-font:normal;
+}
+h3{
+    --h3_ft_size:22px;
+    font-size:var(--h3_ft_size);
+    --wgt-font:bold;
+    font-weight:var(--wgt-font)
+}
+p{
+  /*--p-text-color:blue;*/
+  color:var(--p-text-color)
+}
+   .active, footer{
+    
+    background-color:var(--bg-color)
+  }
+
 @keyframes menu_big{
   from{
     font-size:30px;
