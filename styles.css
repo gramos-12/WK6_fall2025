@@ -631,21 +631,22 @@ form{
         display: flex;
         justify-content: center;
         width: 45%;
+        margin: 20px;
        
       }
 
   #blog_post1 img, #blog_post2 img, #blog_post3 img{
    
-  width: 100%;
+  width: 40%;
   height: 240px;
   object-fit: cover;
-  padding: 20px;
-  margin: 20px;
+  padding: 0;
+  margin: 0;
   }
   #p1_post, #p2_post, #p3_post{
-    width: 100%;
-    margin: 20px;
-    padding: 20px;
+    width: 40%;
+    margin: 5%;
+    padding: 0;
 }
 
 /*---------------   1200px breakpoint   ---------------*/
